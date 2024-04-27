@@ -83,10 +83,11 @@ public class Main {
 
                  Double mountConvert = myRate.convertMoney(usrInterface.getValue(), usrInterface.getToConvert());
 
-                 System.out.println("Monto Convertido: " + mountConvert);
+                 System.out.println("El valor" + usrInterface.getValue()+"["+usrInterface.getDirection() + "]+"
+                                    + "corresponde al valor final de =>>>"+mountConvert+"["+usrInterface.getToConvert()+"]");
 
 
-                 System.out.println("***************************************************");
+                 System.out.println("***************************************************\n");
              }catch (IllegalArgumentException e){
              System.out.println("La opción no es válida");
              } catch (Exception e) {
