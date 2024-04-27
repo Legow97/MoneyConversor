@@ -1,10 +1,10 @@
-package com.alura.moneyconversor;
+package com.alura.moneyconversor.validerrors;
 
-public class InvalidInputException extends Exception{
-    public InvalidInputException() {
+public class ValidOptionException extends Exception{
+    public ValidOptionException() {
     }
 
-    public InvalidInputException(String message) {
+    public ValidOptionException(String message) {
         super(message);
     }
 

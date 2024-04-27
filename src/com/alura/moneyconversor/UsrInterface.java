@@ -1,5 +1,7 @@
 package com.alura.moneyconversor;
 
+import com.alura.moneyconversor.validerrors.ValidOptionException;
+
 import java.util.Scanner;
 
 public class UsrInterface {
